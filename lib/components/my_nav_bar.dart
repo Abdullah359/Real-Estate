@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:realestate/navigation_pages/home_page.dart';
 
 class MyNavBar extends StatefulWidget {
   const MyNavBar({super.key});
@@ -11,11 +12,7 @@ class MyNavBar extends StatefulWidget {
 class _MyNavBarState extends State<MyNavBar> {
   int currentPageIndex = 0;
   static const List<Widget> kPages = [
-    SizedBox(
-      child: Center(
-        child: Icon(Icons.ac_unit),
-      ),
-    ),
+    HomePage(),
     SizedBox(
       child: Center(
         child: Icon(Icons.access_alarms),
