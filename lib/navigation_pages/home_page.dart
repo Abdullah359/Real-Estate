@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
     return SafeArea(
       child: Scaffold(
         body: Padding(
-          padding: const EdgeInsets.only(left: 12,right: 12, top: 12),
+          padding: const EdgeInsets.only(left: 12, right: 12, top: 12),
           child: Column(
             children: [
               Row(
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                   )
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               SizedBox(
