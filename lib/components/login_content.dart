@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:get/get.dart';
 import 'package:realestate/components/my_nav_bar.dart';
 
 import 'login_tile.dart';
@@ -40,10 +41,7 @@ class LoginContent extends StatelessWidget {
         imageURL: 'assets/images/logos/google_icon.png',
         title: 'Google',
         onPress: () {
-          Navigator.pushAndRemoveUntil(
-              context,
-              MaterialPageRoute(builder: (_) => const MyNavBar()),
-              (route) => false);
+          Get.to(() => const MyNavBar());
         },
       ),
       const LoginTile(
