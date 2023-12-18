@@ -1,10 +1,10 @@
 # realestate
 
-![Mode](assets/images/Untitled design.png)
+![Mode](assets/images/Untitleddesign.png)
 
-![](assets/images/Untitled design (1).png)
+![](assets/images/Untitleddesign(1).png)
 
-![](assets/images/Untitled design (2).png)
+![](assets/images/Untitleddesign(2).png)
 
 ## Getting Started
 
